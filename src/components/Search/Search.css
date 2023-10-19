@@ -1,0 +1,33 @@
+.search-users .ui.left.icon.input {
+  width: 100%;
+}
+
+.search-users .results {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.search-users__item {
+  display: flex;
+  align-items: center;
+}
+
+.search-users__item .ui.image {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50% !important;
+  margin-right: 20px;
+}
+
+.search-users__item p {
+  margin: 0;
+  color: var(--font-dark);
+}
+
+.search-users__item p:first-of-type {
+  font-weight: bold;
+}
+
+.search-users__item p:last-of-type {
+  color: var(--font-grey);
+}

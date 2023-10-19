@@ -1,0 +1,43 @@
+:root {
+  --font-light: #fff;
+  --font-grey: #a2a2a2;
+  --font-dark: #000;
+  --bg-light: #fff;
+  --bg-grey-light: #fafafa;
+  --border-grey: #dbdbdb;
+  --border-dark: #000;
+  --action: #0095f6;
+  --danger: #ed4956;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-grey-light);
+}
+
+.ui.form .btn-submit {
+  width: 100%;
+  background-color: var(--action);
+  color: var(--font-light);
+}
+
+.ui.form .submit-error {
+  color: var(--danger);
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.ui.button.btn.action {
+  background-color: var(--action);
+  color: var(--font-light);
+  border-color: var(--action);
+}
+
+.ui.button.btn-danger {
+  background-color: var(--danger);
+  color: var(--font-light);
+  border-color: var(--danger);
+}

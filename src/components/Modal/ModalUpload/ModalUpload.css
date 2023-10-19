@@ -1,0 +1,57 @@
+.modal-upload {
+  border-radius: 1rem !important;
+  overflow: hidden;
+  padding: 8px;
+  width: 650px;
+  height: 650px;
+}
+
+.modal-upload .dropzone {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed var(--border-dark);
+  border-radius: 1rem !important;
+  position: relative;
+  z-index: 1;
+}
+
+.modal-upload .dropzone i {
+  font-size: 50px;
+  color: var(--font-grey);
+}
+
+.modal-upload .dropzone p {
+  margin-block-start: 20px;
+}
+
+.modal-upload .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.modal-upload .btn-upload {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  z-index: 2;
+}
+
+.modal-upload .publishing p {
+  margin-top: 80px;
+  font-size: 18px;
+}

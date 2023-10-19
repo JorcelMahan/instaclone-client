@@ -1,0 +1,8 @@
+.modal-basic {
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
+.modal-basic .header {
+  text-align: center;
+}

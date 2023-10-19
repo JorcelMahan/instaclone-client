@@ -1,0 +1,52 @@
+.feed {
+  padding-top: 50px;
+  height: calc(100vh - 48px);
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed__box {
+  margin-bottom: 50px;
+  border: 1px solid var(--border-grey);
+}
+
+.feed__box-user {
+  background-color: var(--bg-light);
+  padding: 15px !important;
+  color: var(--font-dark);
+}
+
+.feed__box-user img {
+  margin-right: 15px !important;
+}
+
+.feed__box-user span {
+  font-weight: bold;
+}
+
+.feed__box-photo {
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feed__box-photo:hover {
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.feed__box-actions {
+  padding: 5px 5px;
+}
+
+.feed__box-actions i {
+  margin-right: 10px !important;
+}
+
+.feed__box-form > form {
+  position: relative !important;
+}

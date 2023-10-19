@@ -1,0 +1,42 @@
+.auth {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-grey-light);
+}
+
+.auth img {
+  width: 250px;
+}
+
+.auth .container-form {
+  width: 400px;
+  background-color: var(--bg-light);
+  padding: 20px 50px;
+  border: 1px solid var(--border-grey);
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.auth .change-form {
+  margin-top: 10px;
+  width: 400px;
+  background-color: var(--bg-light);
+  padding: 20px 50px;
+  border: 1px solid var(--border-grey);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.auth .change-form span {
+  color: var(--action);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.auth .change-form span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

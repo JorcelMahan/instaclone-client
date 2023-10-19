@@ -1,0 +1,31 @@
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.right-header i.icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  color: var(--font-dark);
+}
+
+.right-header .ui.image.avatar {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--border-dark);
+  padding: 2px;
+}
+
+.right-header i.icon,
+.right-header .ui.image.avatar {
+  margin: 0 0 0 19px;
+}
+
+.right-header i.icon:hover,
+.right-header .ui.image.avatar:hover {
+  cursor: pointer;
+}
