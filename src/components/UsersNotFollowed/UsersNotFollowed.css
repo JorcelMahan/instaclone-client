@@ -1,0 +1,14 @@
+.users-not-followed {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.users-not-followed__user {
+  margin-top: 20px;
+  color: $font-dark;
+}
+
+.users-not-followed__user img {
+  margin-right: 15px !important;
+}

@@ -1,0 +1,11 @@
+.description-form {
+  margin: 20px;
+}
+
+.description-form textarea {
+  margin-bottom: 20px !important;
+}
+
+.description-form textarea.error {
+  border: 1px solid var(--danger) !important;
+}

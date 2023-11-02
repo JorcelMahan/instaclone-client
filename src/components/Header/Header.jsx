@@ -10,15 +10,20 @@ const Header = () => {
     <div className='header'>
       <Container>
         <Grid>
-          <Grid.Column width={3} className='header__logo'>
+          <Grid.Column
+            mobile={4}
+            tablet={3}
+            computer={3}
+            className='header__logo'
+          >
             <Link to='/'>
               <Image src={Logo} alt='Instaclone' />
             </Link>
           </Grid.Column>
-          <Grid.Column width={10}>
+          <Grid.Column mobile={6} tablet={10} computer={10}>
             <Search />
           </Grid.Column>
-          <Grid.Column width={3}>
+          <Grid.Column mobile={6} tablet={3} computer={3}>
             <RightHeader />
           </Grid.Column>
         </Grid>

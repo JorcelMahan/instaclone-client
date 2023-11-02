@@ -1,0 +1,21 @@
+.user-not-found {
+  padding: 30px 0;
+}
+
+.user-not-found p {
+  text-align: center;
+}
+
+.user-not-found p:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.user-not-found p:nth-child(2) {
+  font-size: 16px;
+}
+
+.user-not-found a {
+  display: block;
+  text-align: center;
+}

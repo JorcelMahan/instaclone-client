@@ -1,0 +1,34 @@
+.comment-form {
+  position: absolute !important;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+.comment-form .field {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.comment-form .field .ui.input {
+  height: 60px;
+}
+
+.comment-form .field .ui.input input {
+  border: 0;
+  border-top: 1px solid var(--border-grey);
+  border-radius: 0;
+  padding-right: 80px;
+}
+
+.comment-form .ui.button {
+  background-color: transparent;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.comment-form .ui.button:hover {
+  background-color: transparent;
+}

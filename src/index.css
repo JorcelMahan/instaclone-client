@@ -18,6 +18,11 @@ body {
   background-color: var(--bg-grey-light);
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .ui.form .btn-submit {
   width: 100%;
   background-color: var(--action);
@@ -31,13 +36,13 @@ body {
 }
 
 .ui.button.btn.action {
-  background-color: var(--action);
-  color: var(--font-light);
-  border-color: var(--action);
+  background-color: var(--action) !important;
+  color: var(--font-light) !important;
+  border-color: var(--action) !important;
 }
 
 .ui.button.btn-danger {
-  background-color: var(--danger);
-  color: var(--font-light);
-  border-color: var(--danger);
+  background-color: var(--danger) !important;
+  color: var(--font-light) !important;
+  border-color: var(--danger) !important;
 }

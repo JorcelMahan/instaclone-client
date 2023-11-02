@@ -3,8 +3,7 @@ import { gql } from "@apollo/client";
 export const PUBLISH = gql`
     mutation publish($url: String) {
         publish(url: $url) {
-            status
-            file
+            url
         }
     }
 `;
@@ -13,8 +12,8 @@ export const GET_PUBLICATIONS = gql`
     query getPublications($username: String!) {
         getPublications(username: $username) {
             id
-            idUser
-            file
+            user
+            url
             createdAt
         }
     }
@@ -25,7 +24,7 @@ export const GET_PUBLICATIONS_FOLLOWED = gql`
     query getPublicationsFollowed {
         getPublicationsFollowed {
             id
-            file
+            url
             createdAt
             user {
                 name

@@ -1,0 +1,40 @@
+.profile {
+  margin-top: 20px !important;
+}
+
+.profile__left {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__left .ui.image.avatar {
+  width: 170px;
+  height: 170px;
+}
+
+.profile__left .ui.image.avatar:hover {
+  cursor: pointer;
+}
+
+.profile__right .other .name {
+  font-size: 16px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.profile__right .other .description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* make the image responsive */
+@media (max-width: 768px) {
+  .profile__left {
+    display: block !important;
+  }
+  .profile__left .ui.image.avatar {
+    width: 100%;
+    height: auto;
+  }
+}

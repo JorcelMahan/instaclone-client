@@ -50,3 +50,18 @@ export const SEARCH = gql`
         }
     }
 `;
+
+export const UPDATE_AVATAR = gql`
+    mutation updateAvatar($url: String) {
+        updateAvatar(url: $url) {
+            status
+            url
+        }
+    }
+`;
+
+export const DELETE_AVATAR = gql`
+    mutation deleteAvatar {
+        deleteAvatar
+    }
+`;

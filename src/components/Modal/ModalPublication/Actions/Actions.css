@@ -1,0 +1,18 @@
+.actions {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.actions i {
+  font-size: 16px !important;
+}
+
+.actions i:hover {
+  cursor: pointer;
+}
+
+.actions .like.active {
+  color: var(--danger);
+}

@@ -1,5 +1,4 @@
 import { useState, useEffect, useMemo } from 'react';
-import './App.css';
 import { ApolloProvider } from '@apollo/client';
 import client from './config/apollo';
 import Navigation from './routes/Navigation';

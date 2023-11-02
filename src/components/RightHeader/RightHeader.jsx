@@ -5,6 +5,7 @@ import useAuth from '../../hooks/useAuth';
 import ImageNotFound from '../../assets/avatar.png';
 import { useQuery } from '@apollo/client';
 import { GET_USER } from '../../gql/user';
+import ModalUpload from '../Modal/ModalUpload/ModalUpload';
 import './RightHeader.css';
 
 const RightHeader = () => {
@@ -29,6 +30,7 @@ const RightHeader = () => {
       <Link to={`/${auth.username}`}>
         <Image src={getUser.avatar ? getUser.avatar : ImageNotFound} avatar />
       </Link>
+      <ModalUpload show={showModal} setShow={setShowModal} />
     </div>
   );
 };

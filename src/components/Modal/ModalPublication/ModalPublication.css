@@ -1,0 +1,19 @@
+.modal-publication {
+  height: 520px !important;
+}
+
+.modal-publication .ui.grid {
+  margin: 0;
+  height: 100%;
+}
+
+.modal-publication__left {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal-publication__right {
+  padding: 0 !important;
+  height: 100%;
+}
